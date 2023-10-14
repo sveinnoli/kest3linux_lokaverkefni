@@ -46,7 +46,7 @@ Output of selecting all data from database after insertion using [show_data.sh](
 # 7. Weekly backups
 Crontab was used to schedule the backups at midnight on fridays.
 
-[script for backing up home directory](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/scripts/backup.sh)
+[script for backing up home directory](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/scripts/backup.sh)\
 [crontab used for scheduling backup](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/backup_crontab)
 
 **NOTE** only bottom part of the crontab is relevant for scheduling the run of backup.sh at midnight on fridays.
@@ -62,6 +62,14 @@ Screenshot of server as NTP master server for client:\
 **IMPORTANT:** There are many ntp servers listed, however the main server 192.168.100.10 is preferred (can be seen in the client config file at the bottom) and the other are used as backup and to simply get a time reference from more sources to accurately synchronise time on the client.
 
 # 9. Install and configure Syslog
+[Server configuration](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/rsyslog.conf)
+
+[Client configuration](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/client_vm/rsyslog.conf)
+
+**Note:** port 514/udp is used to transmit logs to server. The logs are saved in **/var/logs/remotelogs/RemoteLogs.log** on the server.
+
+[Output of remote logs](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/logging_output.txt)
+
 
 # 10. Install and configure Postfix
 
