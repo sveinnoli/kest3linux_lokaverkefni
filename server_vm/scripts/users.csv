@@ -1,0 +1,31 @@
+Name,FirstName,LastName,Username,Email,Depatment,EmployeeID
+Andri Mar Fridriksson,Andri Mar,Fridriksson,AndFri,amf@ddp.is,Tolvudeild,1010
+Stefan Gislason,Stefan,Gislason,SteGis,stg@ddp.is,Tolvudeild,1011
+Sindri Gudmundsson,Sindri,Gudmundsson,SinGud,sig@ddp.is,Tolvudeild,1012 
+Jon Bjarni Jonsson,Jon Bjarni,Jonsson,JonJon,jbj@ddp.is,Rekstrardeild,1013
+Elin Gudmundsdottir,Elin,Gudmundsdottir,EliGud,elg@ddp.is,Rekstrardeild,1014
+GudrUn Lilja MagnUsdottir,GudrUn Lilja,MagnUsdottir,GudMag,glm@ddp.is,Rekstrardeild,1015 
+Johann Hjalti Þorsteinsson,Johann Hjalti,Þorsteinsson,JohTor,jht@ddp.is,Rekstrardeild,1016
+Valdis Steinarrsdottir,Valdis,Steinarrsdottir,ValSte,vas@ddp.is,Rekstrardeild,1017
+Jon Einar Haraldsson,Jon Einar,Haraldsson,JonHar,jeh@ddp.is,Framkvaemdadeild,1018
+Eirikur Bergmann Einarsson,Eirikur Bergmann,Einarsson,EirEin,ebe@ddp.is,Framkvaemdadeild,1019
+KolbrUn Anna Bjornsdottir,KolbrUn Anna,BjOrnsdottir,KolBjo,kab@ddp.is,Framkvaemdadeild,1020
+Gerda Bjorg Hafsteinsdottir,Gerda BjOrg,Hafsteinsdottir,GerHaf,gbh@ddp.is,Framkvaemdadeild,1021
+Ari Teitsson,Ari,Teitsson,AriTei,art@ddp.is,Framkvaemdadeild,1022 
+Benedikt Þorri Sigurjonsson,Benedikt Þorri,Sigurjonsson,BenSig,bts@ddp.is,Framkvaemdadeild,1023
+olafur Hannibalsson,olafur,Hannibalsson,OlaHan,olh@ddp.is,Framkvaemdadeild,1024
+Helgi Helgason,Helgi,Helgason,HelHel,heh@ddp.is,Framkvaemdadeild,1025
+Pétur Gunnlaugsson,Pétur,Gunnlaugsson,PetGun,peg@ddp.is,Framleidsludeild,1026
+Freyja Haraldsdottir,Freyja,Haraldsdottir,FreHar,frh@ddp.is,Framleidsludeild,1027 
+Jon Steindor Valdimarsson,Jon Steindor,Valdimarsson,JonVal,jsv@ddp.is,Framleidsludeild,1028 
+Vilhjalmur Þorsteinsson,Vilhjalmur,Þorsteinsson,VilTor,vit@ddp.is,Framleidsludeild,1029
+Axel Þor Kolbeinsson,Axel Þor,Kolbeinsson,AxeKol,atk@ddp.is,Framleidsludeild,1030
+Orn Sigurdsson,Orn,Sigurdsson,OrnSig,ors@ddp.is,Framleidsludeild,1031 
+Þorsteinn Arnalds,Þorsteinn,Arnalds,TorArn,toa@ddp.is,Framleidsludeild,1032 
+Ragnar omarsson,Ragnar,omarsson,RagOma,rao@ddp.is,Framleidsludeild,1033
+Gudmundur Palsson,Gudmundur,Palsson,GudPal,gup@ddp.is,Framleidsludeild,1034 
+Oskar Isfeld Sigurdsson,oskar isfeld,Sigurdsson,OskSig,ois@ddp.is,Framleidsludeild,1035 
+Þorunn Gudmundsdottir,Þorunn,Gudmundsdottir,TorGud,tog@ddp.is,Framleidsludeild,1036
+arni BjOrn Gudjonsson,arni BjOrn,Gudjonsson,ArnGud,abg@ddp.is,Framleidsludeild,1037
+Jon Palmar Ragnarsson,Jon Palmar,Ragnarsson,JonRag,jpr@ddp.is,Framleidsludeild,1038
+
