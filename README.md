@@ -5,7 +5,7 @@ Note: additonal information regarding setup can be found in this [markdown file.
 
 # 1. Hostname
 ![hostname output](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/hostname.png)\
-[Script for hostname](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/scripts/set_hostname)
+[Script for hostname](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/scripts/set_hostname)\
 [Configuration file for hostname](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/hostname)
 
 # 2. Configure IP ADDRESS
@@ -68,12 +68,19 @@ Screenshot of server as NTP master server for client:\
 
 **Note:** port 514/udp is used to transmit logs to server. The logs are saved in **/var/logs/remotelogs/RemoteLogs.log** on the server.
 
-[Output of remote logs](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/logging_output.txt)
+[Output of remote logs (the raw file is too large to be viewed on github.)](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/logging_output.txt)
 
 
 # 10. Install and configure Postfix
+Postfix and mail-utils were used to host the mailserver and send mail between users.
+
+[Configuration file](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/postfix_main.cf)
+
+Screenshot of received mails:\
+![Screenshot of received mails](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/mailing.png)
 
 # 11. Install and configure shared printers
+
 
 # 12. Install and configure SSH
 
