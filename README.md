@@ -80,7 +80,20 @@ Screenshot of received mails:\
 ![Screenshot of received mails](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/mailing.png)
 
 # 11. Install and configure shared printers
+All printers were added using the cups interface at http://localhost:631.
 
+[Configuration file](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/cupsd.conf)
+
+Printers in cups interface:\
+[Screenshot of registered printers on cups interface](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/all_printers_cups.png)
+
+Printers shown using lpstat -a\
+[Screenshot of registered printers](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/printers.png)
+
+Printer queues shown using lpstat -p -d\
+[Screenshot of printer in queue](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/now_printing.png)
+
+**NOTE:** prints in the image above failed because a dummy printer was being used.
 
 # 12. Install and configure SSH
 
