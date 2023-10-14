@@ -1,5 +1,3 @@
-https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/
-
 # kest3linux_lokaverkefni
 Note: additonal information regarding setup can be found in this [markdown file.](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/other.md)
 
