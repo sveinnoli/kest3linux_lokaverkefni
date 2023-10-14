@@ -98,6 +98,8 @@ Printer queues shown using lpstat -p -d\
 # 12. Install and configure SSH
 To allow for seemless login, the public keys were copied using ssh-copy-id user@192.168.100.10 where user was the respective user that was to allowed to have seemless login with the server.
 
+[Authorized keys file for server](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/authorized_keys)
+
 # 13. Close all unused ports
 Open ports shown using nmap on server:
 ![open ports shown using nmap](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/ports_closed.png)
