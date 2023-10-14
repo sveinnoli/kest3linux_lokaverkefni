@@ -3,10 +3,11 @@ https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/
 # kest3linux_lokaverkefni
 
 # 1. Hostname
-[Script for hostname](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/set_hostname)
-![hostname output](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/hostname.png)
+![hostname output](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/hostname.png)\
+[Script for hostname](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/scripts/set_hostname)
 
 # 2. configure IP ADDRESS
+
 
 # 3. DHCP configuration
 
