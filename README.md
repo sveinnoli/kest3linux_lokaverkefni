@@ -96,5 +96,19 @@ Printer queues shown using lpstat -p -d\
 **NOTE:** prints in the image above failed because a dummy printer was being used.
 
 # 12. Install and configure SSH
+To allow for seemless login, the public keys were copied using ssh-copy-id user@192.168.100.10 where user was the respective user that was to allowed to have seemless login with the server.
 
 # 13. Close all unused ports
+Open ports shown using nmap on server:
+![open ports shown using nmap](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/ports_closed.png)
+
+All ports that appear in nmap need to be kept open.
+22: for ssh\
+25: for mailing\
+53: for dns\
+514: for syslog\
+587: for mailing\
+631: for printing\
+3306: for mysql server
+
+All other ports were closed as they were not needed.
