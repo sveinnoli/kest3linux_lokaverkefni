@@ -1,0 +1,12 @@
+$TTL    604800
+@       IN      SOA     ns1.ddp.is. root.ddp.is. (
+                         202310151 ; Serial
+                         604800     ; Refresh
+                         86400      ; Retry
+                         2419200    ; Expire
+                         604800 )   ; Negative Cache TTL
+;
+@       IN      NS      ns1.ddp.is
+@       IN      A       192.168.100.10  ;
+ns1     IN      A       192.168.100.10  ;
+

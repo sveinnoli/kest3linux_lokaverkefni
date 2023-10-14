@@ -1,0 +1,37 @@
+Employees
+employeeID	firstname	lastname	email	phoneNumber	hire_date	salary
+1010	Andri Mar	Fridriksson	NULL	NULL	NULL	1000000
+1011	Stefan	Gislason	NULL	NULL	NULL	1000000
+1012	Sindri	Gudmundsson	NULL	NULL	NULL	1000000
+1013	Jon Bjarni	Jonsson	NULL	NULL	NULL	1000000
+1014	Elin	Gudmundsdottir	NULL	NULL	NULL	1000000
+1015	GudrUn Lilja	MagnUsdottir	NULL	NULL	NULL	1000000
+1016	Johann Hjalti	Þorsteinsson	NULL	NULL	NULL	1000000
+1017	Valdis	Steinarrsdottir	NULL	NULL	NULL	1000000
+1018	Jon Einar	Haraldsson	NULL	NULL	NULL	1000000
+1019	Eirikur Bergmann	Einarsson	NULL	NULL	NULL	1000000
+1020	KolbrUn Anna	BjOrnsdottir	NULL	NULL	NULL	1000000
+1021	Gerda BjOrg	Hafsteinsdottir	NULL	NULL	NULL	1000000
+1022	Ari	Teitsson	NULL	NULL	NULL	1000000
+1023	Benedikt Þorri	Sigurjonsson	NULL	NULL	NULL	1000000
+1024	olafur	Hannibalsson	NULL	NULL	NULL	1000000
+1025	Helgi	Helgason	NULL	NULL	NULL	1000000
+1026	Pétur	Gunnlaugsson	NULL	NULL	NULL	1000000
+1027	Freyja	Haraldsdottir	NULL	NULL	NULL	1000000
+1028	Jon Steindor	Valdimarsson	NULL	NULL	NULL	1000000
+1029	Vilhjalmur	Þorsteinsson	NULL	NULL	NULL	1000000
+1030	Axel Þor	Kolbeinsson	NULL	NULL	NULL	1000000
+1031	Orn	Sigurdsson	NULL	NULL	NULL	1000000
+1032	Þorsteinn	Arnalds	NULL	NULL	NULL	1000000
+1033	Ragnar	omarsson	NULL	NULL	NULL	1000000
+1034	Gudmundur	Palsson	NULL	NULL	NULL	1000000
+1035	oskar isfeld	Sigurdsson	NULL	NULL	NULL	1000000
+1036	Þorunn	Gudmundsdottir	NULL	NULL	NULL	1000000
+1037	arni BjOrn	Gudjonsson	NULL	NULL	NULL	1000000
+1038	Jon Palmar	Ragnarsson	NULL	NULL	NULL	1000000
+Departments
+departmentID	department_name	department_managerID
+1	Tolvudeild	NULL
+2	Rekstrardeild	NULL
+3	Framkvaemdadeild	NULL
+4	Framleidsludeild	NULL
