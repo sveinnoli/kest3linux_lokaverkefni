@@ -104,7 +104,7 @@ To allow for seemless login, the public keys were copied using ssh-copy-id user@
 Open ports shown using nmap on server:
 ![open ports shown using nmap](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/ports_closed.png)
 
-All ports that appear in nmap need to be kept open.
+All ports that appear in nmap need to be kept open.\
 22: for ssh\
 25: for mailing\
 53: for dns\
