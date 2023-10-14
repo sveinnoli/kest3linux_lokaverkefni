@@ -28,7 +28,7 @@ bind9 was used to configure DNS on server.
 # 5. Create and configure Users
 [User script](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/scripts/create_users.sh)
 
-Screenshot of users in /etc/passwd:
+Screenshot of users in /etc/passwd:\
 ![screenshot of users in /etc/passwd](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/users.png)
 
 # 6. Install and configure MYSQL server
@@ -39,9 +39,25 @@ Screenshot of users in /etc/passwd:
 Output of selecting all data from database after insertion using [show_data.sh](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/mysql_files/show_data.sh):\
 [Link to output.txt](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/mysql_files/output.txt)
 
+### SQL QUERIES
+[sql file for creating database](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/mysql_files/mysql_setup_database.sql)\
+[sql file for creating tables](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/mysql_files/mysql_setup_tables.sql)
+
 # 7. Weekly backups
+Crontab was used to schedule the backups at midnight on fridays.
+
+[script for backing up home directory](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/scripts/backup.sh)
+[crontab used for scheduling backup](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/backup_crontab)
+
+**NOTE** only bottom part of the crontab is relevant for scheduling the run of backup.sh at midnight on fridays.
 
 # 8. Install and configure NTP
+[Server config file]()
+
+[Clients config file]()
+
+Screenshot of server as NTP master server for client:\
+![Screenshot of server as NTP master server for client](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/ntp_client_synced_2.png)
 
 # 9. Install and configure Syslog
 
