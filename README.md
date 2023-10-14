@@ -7,6 +7,7 @@ https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/
 [Script for hostname](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/scripts/set_hostname)
 [Configuration file for hostname](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/hostname)
 
+# 2. Configure IP ADDRESS
 [netplan.yaml - for server](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/netplan.yaml)\
 Screenshot of server configuration\
 ![Ip conf of server](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/ip_addr_server.png)
