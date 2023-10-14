@@ -52,12 +52,14 @@ Crontab was used to schedule the backups at midnight on fridays.
 **NOTE** only bottom part of the crontab is relevant for scheduling the run of backup.sh at midnight on fridays.
 
 # 8. Install and configure NTP
-[Server config file]()
+[Server config file](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/server_vm/conf_files/ntp.conf)
 
-[Clients config file]()
+[Clients config file](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/client_vm/ntp.conf)
 
 Screenshot of server as NTP master server for client:\
 ![Screenshot of server as NTP master server for client](https://github.com/sveinnoli/kest3linux_lokaverkefni/blob/main/screenshots/ntp_client_synced_2.png)
+
+**IMPORTANT:** There are many ntp servers listed, however the main server 192.168.100.10 is preferred (can be seen in the client config file at the bottom) and the other are used as backup and to simply get a time reference from more sources to accurately synchronise time on the client.
 
 # 9. Install and configure Syslog
 
